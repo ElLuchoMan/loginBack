@@ -32,6 +32,8 @@ implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '3.
 	implementation "io.springfox:springfox-bean-validators:3.0.0"
 	
 	implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.5.0'
+	
 	
 }
 
