@@ -22,7 +22,7 @@ import com.login.service.ProductoService;
 
 @RestController
 @RequestMapping("/api/productos")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class ProductoController {
 
     @Autowired
